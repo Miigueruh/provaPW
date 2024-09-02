@@ -1,0 +1,175 @@
+
+
+
+
+.index1{
+    background-image: url('imagens/fundo.jpg'); 
+    background-size: cover; 
+    background-position: top; 
+    margin: 0;
+}
+
+
+.servicos {
+    background-image: url('imagens/fundo4.jpg'); 
+    background-size: cover; 
+    background-position: top; 
+    margin: 0;
+    font-size: larger;
+}
+
+.contato{
+    background-image: url('imagens/fundo5.jpg'); 
+    background-size: cover; 
+    background-position: top; 
+    margin: 0;
+}
+
+.navbar {
+    font-family: "Poppins", sans-serif;
+    background-color: #c8cac9 !important;
+    height: 64px;
+}
+
+.navbar-brand, .nav-link {
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #333 !important;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+    color: #c8cac9;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.container3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    background-image: none;
+}
+
+.mt-4 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #c8cac9;
+}
+.mt-41 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+.mt-42 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #c8cac9;
+}
+
+.table {
+    background-color: #c8cac9;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #292929;
+}
+
+.img-fluid {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+
+    justify-content: center;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group{
+    color: #ffffff;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.produtos{
+    background-image: url('imagens/fundo3.jpg'); 
+    background-size: cover; 
+    background-position: top; 
+    margin: 0;
+}
+
+.product-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+
+.product-box {
+    flex: 1 1 30%; 
+    border: 1px solid #ddd;
+    padding: 15px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    text-align: center; 
+    transition: transform 0.3s; 
+}
+
+
+.product-box:hover {
+    transform: scale(1.05);
+}
+
+
+.product-image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 15px;
+}
+
+.product-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1em;
+    color: #c8cac9;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #c8cac9;
+    font-weight: bold;
+}
